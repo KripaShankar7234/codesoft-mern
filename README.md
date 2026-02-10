@@ -1,65 +1,106 @@
-# 🛒 E-Commerce Website – MERN Stack  
-### CodeSoft Web Development Internship (Level 3)
+Codesoft MERN E-Commerce Website
 
-This is a **full-stack E-Commerce web application** developed as part of the **CodeSoft Web Development Internship – Level 3 Task**.  
-The project is built using the **MERN stack** and demonstrates real-world features like authentication, product management, cart, and order handling.
+This is a full-stack E-commerce web application developed as part of my Web Development Internship at Codesoft.
+The project is built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and demonstrates real-world features such as authentication, product management, and deployment.
 
----
+🚀 Live Demo
 
-## 🚀 Live Demo
+Frontend (Netlify):
+👉 https://codesoft-mern.netlify.app
 
-🔗 Frontend (Netlify):  
-https://codesoft-ecommerce.netlify.app  
+Backend (Render):
+👉 https://codesoft-backend.onrender.com
 
-🔗 Backend API (Render):  
-https://codesoft-backend.onrender.com  
+🧑‍💻 Internship Details
 
-🔗 GitHub Repository:  
-https://github.com/YOUR_USERNAME/CODESOFT  
+Internship: Web Development Intern
 
----
+Organization: Codesoft
 
-## 📌 Features
+Project Name: MERN E-Commerce Website
 
-### 👤 User Features
-- User Registration & Login (JWT Authentication)
-- Browse products
-- View product details
-- Add products to cart
-- Checkout & place orders
+Duration: Internship Project
 
-### 🛠 Admin / Backend Features
-- RESTful APIs
-- Product creation via API
-- MongoDB database integration
-- Secure authentication using JWT
-- Modular backend architecture
+Developer: Kripa Shankar Yadav
 
----
+🛠️ Tech Stack
+Frontend
 
-## 🧑‍💻 Tech Stack
+React.js
 
-### Frontend
-- React.js
-- Tailwind CSS
-- JavaScript
-- Axios
-- Vite
+Vite
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB (MongoDB Atlas)
-- Mongoose
-- JWT Authentication
-- bcrypt.js
+JavaScript (ES6+)
 
-### Deployment
-- Frontend: Netlify
-- Backend: Render
-- Database: MongoDB Atlas
+HTML5
 
----
+CSS3
 
-## 📁 Project Structure
+Axios
 
+React Router DOM
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+JWT (Authentication)
+
+bcrypt.js
+
+dotenv
+
+CORS
+
+Deployment
+
+Frontend: Netlify
+
+Backend: Render
+
+Database: MongoDB Atlas
+
+✨ Features
+
+User Registration & Login (JWT Authentication)
+
+Secure Password Hashing
+
+Product Listing
+
+Add to Cart functionality
+
+RESTful APIs
+
+Environment Variable Security
+
+Responsive UI
+
+Full Stack Deployment
+
+
+
+Project Structure
+codesoft-mern/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── routes/
+│   ├── models/
+│   ├── controllers/
+│   ├── index.js
+│   └── package.json
+│
+├── .gitignore
+└── README.md
