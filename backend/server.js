@@ -15,9 +15,13 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+    "http://localhost:5173",
+    "https://codesoft-mern.netlify.app"
+  ],
   credentials: true
 }));
+
 app.use(express.json());
 
 // routes
@@ -31,13 +35,7 @@ app.get("/test", (req, res) => {
   res.send("Backend working ✅");
 });
 
-// fallback
-app.use((req, res) => {
-  res.status(404).json({ message: "Route not found" });
-});
-
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
-
