@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://codesoft-backend-wq36.onrender.com/api"
+  baseURL: `${import.meta.env.VITE_API_URL}/api`,
+  withCredentials: true
 });
 
 export default API;
